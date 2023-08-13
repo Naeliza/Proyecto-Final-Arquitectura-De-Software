@@ -59,6 +59,10 @@ export class ReporteBachesComponent {
   // Propiedad para almacenar el nombre de usuario
   nombreUsuario: string = '';
 
+  // Propiedad para almacenar el medio
+  medio: string = '';
+
+
   // Para generar número de reporte
   generateRandomNumber(): number {
     return Math.floor(Math.random() * 1000) + 1;
@@ -85,6 +89,8 @@ export class ReporteBachesComponent {
       longitude: -69.8291572,
       nombreUsuario: this.nombreUsuario
     });
+
+    this.medio = medio;
   }
 
   // Función para reportar un bache

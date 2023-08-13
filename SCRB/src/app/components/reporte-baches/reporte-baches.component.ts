@@ -62,7 +62,6 @@ export class ReporteBachesComponent {
   // Propiedad para almacenar el medio
   medio: string = '';
 
-
   // Para generar número de reporte
   generateRandomNumber(): number {
     return Math.floor(Math.random() * 1000) + 1;

@@ -48,8 +48,7 @@ export class ReporteBachesFacade {
 
 @Component({
   selector: 'app-reporte-baches',
-  templateUrl: './reporte-baches.component.html',
-  styleUrls: ['./reporte-baches.component.css']
+  templateUrl: './reporte-baches.component.html'
 })
 export class ReporteBachesComponent {
 
